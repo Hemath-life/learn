@@ -1,0 +1,44 @@
+-------------------------------------------Emmet------------------------------------------
+HTML
+ .name__ create div tag with class name.
+ #name__ create div tag with class name.
+ div.name __ creating div with class name.
+ div#name__ creating div with id name.
+ h1{good morning}__ to write h1 inside good morning text.
+
+ div#name.name__creating div which have id and class name .
+ a[_target="blank]__ create a anchor tag with target attribute.
+ input:typename __ create input tag which typename you specified.
+
+Nesting:
+div>h1 __ create div and inside put h1 tag.
+
+Create section element:
+div>(h2>p)+div__ create div inside two group one is h2 inside p and another one is div.
+
+Creating a link:
+p{good }>a{hallo}+{ morning}__ Creating p tag inside good text,anchor tag inside hallo and morning.
+
+Multiplication:
+ul>li{$}*5__ create ul inside li element 5 then inside gonna be 1,2,3,4,5 like content .
+
+
+CSS
+
+m10__ Create margin with 10 px .
+m10rem or m10em__Create margin with 10rem or 10em.
+p10__Create padding with 10 px .
+p10rem or m10em__Create padding with 10rem or 10em.
+ 
+bg__ background.
+bgc_background color.
+
+w10__Create width with 10 px .
+same w10rem
+mw10__Create min width in 10px.
+
+h10_Create height with 10 px .
+mh10_Create  min height with 10 px 
+
+dn__display none.
+df__display flex.

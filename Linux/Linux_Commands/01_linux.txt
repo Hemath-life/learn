@@ -1,0 +1,230 @@
+fname - file name
+    dname - directory name
+    find - name  to search 
+    which -name to search name.
+    To select more then one file -{fname,fname,fname}
+
+
+1. -------------- ls 
+    ls  ___list
+    syntax: ls [options] [file directory or name]
+    man ls _dictionary for ls comment.
+
+    ls Downloads/
+    ls / 
+    ls ..    ___ print one folder back list
+    ls ../.. ___ print two folder back list
+
+    ls ../../.. ___ print three folder back list
+    ls -l ___ list files in to long format.
+    ls -1 ___ list files in to line by line.
+    ls -a  ___ list hidden files.
+
+    ls -al  ___ show hidden file in long list.
+    ls -lS ___ sort file based on file size.
+    ls *.mp4  ___ list mp4  files only.
+    ls -lS > good.txt    ___ sort file based on file size and put into good.txt file.
+
+    ls -d *___ list directory only.
+    ls -l --author___ list author of each file.
+    ls -R ___ show all file to current dir
+2. -------------- cd 
+    cd___change directory
+    syntax: cd [dirname] 
+
+    cd _take you to home.
+    cd ~_take you to home.
+    cd /_take you to root directory.
+    cd -_print home to where you are path and go back.
+
+    cd .. _ current directory to parent directory
+    cd my\ books_ to move my books folder.
+    cd 'my books'_ to move my books folder. 
+    cd "my books"_ to move my books folder.
+3.-------------- Redirection   
+    capturing output form comment or program sending it as input comment or program.
+    syntax: output > file
+
+    cat > fname ___ it's going to create or already exist then there what we're typing on the 
+        terminal everything going to save of fname. or overtired.
+    cat >> fname ___ append the input.
+    cat  fname fname >> fname ___ take two file and give it to another fname.
+4.-------------- mkdir  
+    syntax: mkdir [options dname]
+
+    mkdir dname ___ to creae directory.
+    mkdir dname/dname ___ create dname inside dname.
+    mdir -p dname/dname ___to create directory structure when the parent doesn't exit.
+        -p ___  make parent directories as needed
+    mkdir -p dname/{name1,name2,name3}___ creating several directory inside dname directory.
+5.-------------- rmdir & rm 
+    To remove dir or dir structure.
+    if there is any file in dir the rmdir not work rm will work.
+    syntax: rmdir [options dname]
+
+    rmdir dname ___ to delete one directory.
+    rmdir -p dname/dname ___ to delete directory structure.
+    rmdir -pv dname/dname ___ to delete directory structure.
+        - v represent setting to give delete item stranded information.
+        print a message for each created directory
+
+    rm -rv dname ___ to delete dir structure and files.
+        -r recursive to delete dir
+        -v represent setting to give delete item stranded information.
+6.-------------- cp 
+    copy files and directory
+    syntax: cp [options source destination]
+
+    cp 1fname 2fname ___ to make copy first 1f to 2f .
+    cp 1fn directory ___ to copy 1f to directory inside.
+
+    cp -R dname dname ___ to copy directory to another directory. 
+        - omitting directory coz the directory contained files so cont move.
+        - R to recursive coping.
+7.-------------- mv
+    To move the file one place to another place.
+    syntax: mv options source destination.
+
+    mv 1file 2file ___ to change the fname. if the 2file is not exist the  name only change.
+    mv 1file 2file ___ if the 2file is exist to remove old 1file and content move to the 2file.
+    mv 1file dname ___ to move 1file to directory where you want.
+        - if you want to file another place the same file name exist on there it'll be overtired
+        -{-i interactive -- it's gonna ask can overwrite the exist file} 
+    mv dir dir ___ to change one to another one.
+
+
+1.-------------- sudo 
+    sudo - super user do 
+    sudo - s __ sudo user mood.
+2.-------------- top 
+    top - provides dynamic view for the system.
+        - which app consuming the lot of power,disk and cpu.
+        - PID stands for process id.linux every program have process id.
+        - s _  give us to the refresh set time.
+        - i _ remove idl process and give active process app.
+        - k _ as process ID and it'll kill the process.
+3.-------------- kill 
+    syntax: kill flags PID
+    pid - --- process id.
+
+    pidof name ___ proveide the ipd for represented name .
+    kill pid __ kill the process.
+    kill -KILL pid __ to say strongly kill the process.
+    kill -9 pid __ to say strongly kill the process.
+
+    ps -ux __ similar like top to see pid.
+    ps -U oh __ process running on using oh user.
+        -U represented user.
+    ps -C chrome   ___ provides the process related pid.
+4.-------------- echo 
+
+    echo
+        -it just display what we write after echo.
+        -echo use for while bash scripting 
+        -to declare the variable.
+
+    myname="Mark" ___ declare variable(this session only and no space while declare variable) 
+    echo $myname  ___ display variable.
+    echo "my name value is : $myname" ___ string interpolation.
+    echo -e "some \them" ___ give space beetween some and ext / output: some  	hem 
+        - e means escape sequins.
+        - \t back 
+        -\n new line
+5.-------------- chmod
+    file permission
+    chmod
+        - chrome mood
+        - read
+        - write
+        - execute
+    chmod o+x fname or dname ___  to give execute permission of others.
+        - o for others.
+        - +(or =) for adding permission
+        - - for removing permission
+        - x for execute
+        - g for group
+        - a for all
+    chmod g+x name ___  to give execute permission of group.
+        - g for group
+    chmod ug=rwx name   ___ to give all permission.
+        - u for user.
+    chmod ugo-rwx name ___ remove all permission.
+    chmod a-rwx name ___ remove all permission
+        - a for all
+    chmod u+rw,g=rw,o+r name 
+6.-------------- chmod via numeric 
+    user       group       others
+    r w x       r w x           r w x 
+    1 1 1       1 1 1           1 1 1
+    4 2 1       4 2 1           4 2 1
+    5               5                   5 
+    6               6                   6
+    7               7                   7
+    chmod  000 hem.txt __ remove permission for all 
+        - 000 represented user group others permission is 0.
+7.-------------- which  and whatis 
+
+    which __ return the path name of specified name.
+    what's ___ short manual page description about the linux cements .
+    syntax : which [name]
+
+    which chrome __ give the chrome software place
+8.-------------- add user 
+    syntax: sudo useradd name -m  -s  /bin/bash -g users -c "Good morning"
+        - m is create default home dir for name
+        - s used shell 
+        -/bin/bash
+        - g defualt user 
+        - comment
+
+    passwd   username ___ to change the password
+9.-------------- delete  user 
+
+    syntax : sudo userdel name __ delete only the user. not data.
+
+    syntax : sudo userdel  -r  name 
+    - r to remove the home file.
+    - and user 
+
+
+1. --------------  groups
+    groups __ 
+    cat /etc/group ___ to show all the available group in linux.
+    sudo groupadd name ___ to create new group
+    sudo groupdel name __ to delete group.
+
+    sudo gpasswd -a oh Java  __ adding user to group.
+        -a add.
+        -d remove.
+2. --------------  viewings the resource
+    df___ show the available disk space.
+        - h  human readable .
+    du  dname___ show the disk used by the file on particular dname.
+        - h  human readable .
+        - s summery 
+    free ___ show the total about of free and used and swap memory.
+3. -------------- watch 
+    watch - execute a program loop way or periodically, showing output full screen
+    watch -n 1 free  ___ execute free comment every 1 sec.
+4. -------------- bashrc
+    bashrc file is a script it's execute whenever the new terminal session started.
+    home you can find the prebuilt bashrc file.
+    adding environment variable in bashrc file.
+    bashrc file ___ you can customize whatever you want.
+    example:
+
+    echo "This is Justin"
+    alias ls = 'ls --color= auto -l'
+5. --------------  cal
+    displays a calendar and the date of Easter
+
+    cal ___
+    ncal ___
+    cal 2019 ___ show all the month
+    cal 2 ___ show the february
+6.-------------- date
+        displays a calendar and the date of Easter
+
+        date ___ show the time
+        date -s "10/10/2010 12:48:00" ___ to change the date
+            -s set the date

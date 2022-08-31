@@ -1,0 +1,27 @@
+1. what's express-session ?
+          _ genid function isn’t called since the id is already being taken in.
+          _ When we logged the req.sessionID inside the session middleware, the session hadn’t been instantiated yet, so we hadn’t yet added the sessionID to the request object. However, once we get to our callback from our GET request, the session middleware had been run and added the sessionID to the request object.
+                    - Server is restarted and session memory is wiped.
+                    - We send our cURL request to the server along with our session id
+                    - The server receives the requests, and the session middleware can’t find the session id in memory, so it call the genid function
+                    - The genid function logs that we are inside the session middleware and it logs the request object’s session id. Since we sent the session id in our cURL request, the request object was actually instantiated with that session id. However, this session id is overwritten by the return value of the genid function.
+                    - When the session middleware is done overwriting the session id we sent, control is handed over to the callback function within app.get(), where we log that we are inside the hompage callback function and log the new id.
+          _ again req with sessionID We won’t see the ‘Inside the session middle’ log being called, because genid isn’t being called. The session id is being matched with the session id in memory.
+          _  If we restart our server again, the memory will be wiped again. So we need to have some way of making sure that we can save our session id even if the server shuts down. That’s where the ‘session store’ comes in. Normally, your database would act as a session store, but since we’re trying to keep things as simple as possible, let’s just store our session info in text files.
+              
+          _ secret 
+                    - Sessions can contain sensitive data so the cookie value is securely stored as a hash.
+                    - Essentially you are creating a hash which is set to be the cookie value. That hash in itself is the representation the data we are setting into the cookie. 
+          _  re-save: false, & saveUninitialized: true
+                    - resave: when set to true, this will force the session to save even if nothing changed.
+                    - The resave field forces the session to be saved back to the session store,
+                    - One thing to note is that if you set saveUninitialized to false, the session cookie will not be set on the browser unless the session is modified. That behavior may be implied but it was not clear to me when I was first reading through the documentation.
+                    - When a client makes an HTTP request, and that request doesn't contain a session cookie, a new session will be created by express-session. Creating a new session does a few things:
+                              ~ generate a unique session id
+                              ~ store that session id in a session cookie (so subsequent requests made by ~ the client can be identified)
+                              ~ create an empty session object, as req.session
+                              ~  depending on the value of saveUninitialized, at the end of the request, the session object will be stored in the session store (which is generally some sort of database)
+
+
+2. uuid ?
+          _ Install uuid to automatically generate unique strings

@@ -1,0 +1,15 @@
+1. nmcli radio wifi off
+          - nmcil-  command-line tool for controlling NetworkManager
+          - nmcli your-parameters
+2. Enable/disable networking completely
+          - nmcli networking off 
+1. iwconfig
+          - configure a wireless network interface
+2. iwlist scan  
+          - to see all avalible network in your wifi
+3. to connect wifi to particular network
+          - ifconfig wlp3s0 up   2. Enable/disable networking completely
+
+nmcli networking off
+          - ifconfig wlp3s0 up 
+

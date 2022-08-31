@@ -1,0 +1,159 @@
+1.  6 Level  security authentication ?
+          _ Email & Password
+                    - simple authentication using Email and Password 
+          _ Encryption:
+                    - Enigma machine  
+                              ~ used in world war 2 by germans
+                    - Caesar Cipher 
+                              ~ Password + key -> Cipher Method  = CipherText 
+                              ~ CipherText + key -> Cipher Method = Password
+          _ Hashing:
+                    - No decoding ways in Hashing Method
+                   - Register:
+                              ~ Password -> hash function(mathematical function) = Hash
+                    - Login:
+                              ~  Password -> hash function(mathematical function) = Hash === already stored Hash
+          _ Salting:
+                    - password+ random Characters -> hash function = hash
+                    - in Database we store salt and hashes
+                    - if the hash take 5 min to crack the bcrypt take 10 minutes to crack .
+                    - to make more security we can use Salting rounds.
+                    - salt rounds: lets say 4 rounds
+                              1. password+ random Characters -> hash function = hash 1
+                              2. hash 1+ random Characters -> hash function = hash 2
+                              3. hash 2+ random Characters -> hash function = hash 3
+                              4. hash 3+ random Characters -> hash function = hash
+          _ Cookies and Session:
+                    - when you visit the amazon if you click one item the amazon sent as to Cookie .
+                    - Cookies contain Session ids have that Session id the can track us.
+                    - it saves the action on your WebSite.
+                    - actions:
+                             1. Browser (make a request for get a home page ) ---- get -----> Server
+                             2.  Browser(getting html and css files) <---- response --- Server
+                             3 .Browser(i would like this item ex: computer) ----- post -------> (Server create a Cookie)
+                             4. Browser(store Cookies) <---- response --- Server
+                             while after
+                            6. Browser (make a request for get a home page and send along with Cookies ) ---- get -----> Server(
+                                      server identify who i'm by cracking the Cookie)
+                            7. Browser(getting html and css files)<---- response --- Server(render html based in my cookies)
+                    - lots of type cookies is there but all the one stablish to maintain the Session 
+                    - Session is period of time Browser interact with the server
+                    - when you Login the WebSite that time the cookie created . which inside have user credential logged in adn successfully authenticated.
+                    - when you logout the cookie will destroy.
+
+        _ NPM
+                - mongoose-encryption __ Level 2 encryption it dose encryption and authentication 
+                        ~ mongoose in dependency
+                        ~ It'll encrypt when you call save it'll decrypt when you call find.
+                - env 
+                        ~ key value pairs and no space 
+                        ~ use snake case
+                        ~ use ALL Capital recommended
+                - md5
+                        ~md5(value) only hashing no decoding.
+                - bcrypt  
+                        ~ intustray stantedrd 
+                        ~ makes slow the computer 
+                
+                - passport	
+                        ~ we can do hashing salting and authentication using passport
+                        ~ passport
+                        ~ express-session
+                        ~ passport-local	
+                        ~ passport-local-mongoose   
+                                
+                
+             _ WebSite:
+                    - https://www.security.org/how-secure-is-my-password/
+                    - https://haveibeenpwned.com/
+                    - https://passwordsgenerator.net/
+                    - https://hackertyper.net/
+2. Http Headers ?
+        _ while making a request you'll get 3 type Headers
+                - general headers 
+                        ~ it can be either req and res related.
+                - request headers
+                        ~ just make req to particular site if any cookies available related to the website it'll add with http headers.
+                - response headers
+                        - when first time hit the website it's send cookies via http response like set-cookies inside session id expire_date path(url) etc
+        _ creating a cookie via console
+                - while make a request to one new WebSite it set  cookie inside the https headers.
+                        after while to make a req again to that WebSite the browser identify the cookie and along with request header.
+                - we can use for user persistent state or any other thing
+                - cookie are key value pairs 
+                - date = new Date()
+                - date.setTime(date.getTime()+30000);
+                - document.cookie = "name=Justin; expires="+date.toUTCString()+';'
+        _ http only 
+                - Using the HttpOnly flag when generating a cookie helps mitigate(thanimi) the risk of client side script accessing the protected cookie.
+                - HTTP. If true, this field indicates that the cookie should only be used over HTTP, and JavaScript modification is not allowed. See HttpOnly cookies.
+3. whats session and cookies ?
+        _  cookie is places the data store
+        _ when you make new req to the server . the server send the cookie to browser via header called set cookie.
+        _ cookies store in browser and session store in server. Browser attach to headers while making a http request to same site.
+        _ session store in server side it can store quite big compare to cookies.
+        _ in cookies we can't store user credential or secret information. if we did that hacker easy grab that data
+        _ server authenticate user via secret key.
+        _ in generally the express session not using the database it's just using the sever storage
+        _ we can store those session to database
+        _ cookie can have expire property
+        _ to user cookies  use req.session 
+        _ When a client makes an HTTP request, and that request doesn't contain a session cookie, a new session will be created by express-session. Creating a new session does a few things:
+                - generate a unique session id
+                - store that session id in a session cookie (so subsequent requests made by ~ the client can be identified)
+                - create an empty session object, as req.session
+                - depending on the value of saveUninitialized, at the end of the request, the session object will be stored in the session store (which is generally some sort of database)
+
+4. what' passport ?
+        _ Authentication mechanisms, known as strategies.
+        _  such as Facebook or Twitter has become a popular authentication method. Services that expose an API often require token-based credentials to protect access.
+        _ Passport recognizes that each application has unique authentication requirements. Authentication mechanisms, known as strategies, are packaged as individual modules.
+        _ Local strategies
+                - down function is called when the `passport.authenticate()` method is called.
+                - This function is called when the `passport.authenticate()` method is called.
+                - If a user is found an validated, a callback is called (`cb(null, user)`) with the user object. 
+                - The user object is then serialized with `passport.serializeUser()` and added to the `req.session.passport` object.
+                                // Tells Passport to use this strategy for the passport.authenticate() method
+                                // Here is the function that is supplied with the username and password field from the login POST request 
+                        passport.use(new LocalStrategy(function (username, password, cb) {
+                                  // Search the MongoDB database for the user with the
+                                .findOne({ username: username })        
+                                .then((user) => {
+                                                / * Err 2. User
+                                                If we don't find a user in the database, that doesn't mean there is an application error
+                                                so we use `null` for the error value, and `false` for the user value` */
+                                        if (!user) { return cb(null, false) }
+                                                // validPassword function  defined on the top of the code 
+                                               * Since the function hasn't returned, we know that we have a valid `user` object. We then  validate the `user` object `hash` and `salt` fields with the supplied password using our utility function. If they match, the `isValid` variable equals True.
+                                        const isValid = validPassword(password, user.hash, user.salt);
+                                        if (isValid) {
+                                                  return cb(null, user)
+                                        }
+                                        else {
+                                                  return cb(null, false)
+                                        }
+                                }).catch((err) => {
+                                       // This is an application error, so we need to populate the callback `err` field
+                                        cb(err)
+                              });
+                        passport.serializeUser(function(user, cb) {
+                                cb(null, user.id);
+                                });
+                        passport.deserializeUser(function(id, cb) {
+                                User.findById(id, function (err, user) {
+                                        if (err) { return cb(err); }
+                                        cb(null, user);
+                                });
+                                });
+                                Instead of storing the entire user object in the session, we only need to store the database ID for the user. When we need to get more information about the user in the current session, we can use the deserialize function to look the user up in the database using the ID that was stored in the session. Again, we will make more sense of this soon.
+                        app.use(passport.initialize());
+                        app.use(passport.session());
+                                if you remember from earlier in the post on how middleware works, by calling app.use(), we are telling Express to execute the functions within the parentheses in order on every request.
+                                In other words, for every HTTP request our Express app makes, it will execute passport.initialize() and passport.session().
+                                -   The reason this works is because these two functions actually return another function! Kind of like this:
+
+
+                        
+                link: https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195#ded8
+                       
+

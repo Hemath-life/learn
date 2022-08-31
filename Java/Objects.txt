@@ -1,0 +1,17 @@
+Ways to initialize object in Java ?
+     - By reference variable
+     - By method
+     - By constructor
+
+What are the different ways to create an object in Java?
+     - By new keyword
+     - By newInstance() method
+     - By clone() method
+     - By deserialization
+     - By factory method etc.
+
+     - Anonymous object
+          - new Calculation();//anonymous object  
+     - Calling method through a reference:
+          - Calculation c=new Calculation();  
+               - c.fact(5);  

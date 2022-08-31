@@ -1,0 +1,45 @@
+Constructor in Class ?
+     - A constructor initializes an object when it is created
+     - Same name as its class name
+     - constructors have no explicit return type.
+     - All classes have constructors
+     - default constructor that initializes all member variables to zero
+     - once you define your own constructor, the default constructor is no longer used.
+     Syntax:
+          class ClassName {
+               ClassName() {
+               }
+          }         
+     - No argument Constructors
+               Public class MyClass {
+                    Int num;
+                    MyClass() {
+                         num = 100;
+                    }
+               }
+               public class ConsDemo {
+                    public static void main(String args[]) {
+                         MyClass t1 = new MyClass();
+                         MyClass t2 = new MyClass();
+                         System.out.println(t1.num + " " + t2.num);
+                    }
+               }
+     - Parameterized Constructors
+          // A simple constructor.
+               class MyClass {
+               int x;
+               
+               // Following is the constructor
+               MyClass(int i ) {
+                    x = i;
+               }
+               }
+          public class ConsDemo {
+               public static void main(String args[]) {
+                    MyClass t1 = new MyClass( 10 );
+                    MyClass t2 = new MyClass( 20 );
+                    System.out.println(t1.x + " " + t2.x);
+               }
+               }
+
+

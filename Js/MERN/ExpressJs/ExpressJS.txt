@@ -1,0 +1,29 @@
+1. what's express js ?
+        _ If you what you use javascript in back-end.Express js in Framework.
+        _  Fast, unopinionated, minimalist web framework for node.js.
+        _  Unopinionated:
+                - It allow you to do whatever you want.some other frame work have some restriction.here not like much.
+        _ Makes our life easy to create.
+        _  Express provides you minimum features to that you can build an amazing website.
+        _ Node is provides HTTP module.
+
+
+2. What's Router  handler ?
+        _ Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+        _ Each route can have one or more handler functions, which are executed when the route is matched.
+        _ app.METHOD(PATH, HANDLER)
+                - app is an instance of express.
+                - is an HTTP request method, in lowercase.
+                -PATH is a path on the server.
+                -HANDLER is the function executed when the route is matched.
+                
+3. What's middleware ?
+        _ Express middleware are functions that execute during the lifecycle  of a request to the Express server. Each middleware has access to the HTTP request and response for each route (or path) it's attached to.
+        _ Middleware is a function,program or any thing which going to run
+        between the request and sends the response time.
+        _ it can handel req res object as well.
+        _ which have req and res that should be middleware.
+        _ if call next function the next middleware going to execute. after execute all middleware it see reaming code in the after next call .
+        _ middleware run in order to you define
+        _ all middleware functions store like a stack . you need to call next to every middleware to execute another middleware.
+        _ if you use "return" keyword it not gonna visit the reaming code after the next call in particular middleware.                        [    :)    ]

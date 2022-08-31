@@ -1,0 +1,252 @@
+Java Introduction ?
+     - High-level programming languages
+     - Developed by Sun Microsystems 
+     - Released in 1995 
+     - Java is a statically-typed programming language. It means, all variables must be declared before its use. That is why we need to declare variable's type and name.
+
+     Features:
+          - Object Oriented 
+          - Platform Independent
+                    - compile the java code into byte code and the byte code interpreted by the Virtual Machine
+          - Simple 
+          - Secure
+          - Architecture - neutral
+          - Portable
+          - Robust
+
+
+          - Multithreaded
+          - interpreted
+          - High Performance
+          - Distributed
+          - Dynamic
+
+Hallo World Using Java ?
+     - File name and Class name Should be Same 
+     Compile and Execute:
+          - javac filename.java
+          - java filename
+     Code :
+          public class MyFirstJavaProgram {
+               public static void main(String []args) {
+                    System.out.println("Hello World"); // prints Hello World
+               }
+          }
+
+Basic Syntax ?
+     - Name of the program file should exactly match the class name.
+     - Case Sensitive
+     - Class Names Should be in Camel Case
+          class MyFirstJavaClass
+     - Function name Should be first Letter Small and Capital name
+          public void myMethodName()
+     - java program processing starts from the main() method 
+          public static void main(String args[]) 
+
+Java Identifiers ?
+     - All Java components require names. Names used for classes, variables, and methods are called identifiers.
+     - A to Z (a to z) $ , _ 
+     - A key word cannot be used as an identifier.
+     - Most importantly, identifiers are case sensitive.
+     -  $salary, _value, __1_value.
+
+Java Modifiers  ?
+     - Access Modifiers
+          - default
+          - public
+          - protected
+          - private
+     - Non - Access Modifiers 
+          - final
+          - abstract
+          - strictfp
+
+Java Variables ?
+     - A variable is the name of a reserved area allocated in memory. In other words, it is a name of the memory location. It is a combination of "vary + able" which means its value can be changed.
+
+     - Local Variables
+          - Declared in methods , constructor , or blocks
+          - The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+          - A local variable cannot be defined with "static" keyword.
+          - local variable as no Default value
+          - variables are created when the method, constructor or block is entered and the variable will be destroyed once it exits the method, constructor, or block.
+          - Access modifiers cannot be used for local variables.
+          - Local variables are visible only within the declared method, constructor, or block.
+          - Local variables are implemented at stack level internally.
+          - There is no default value for local variables, so local variables should be declared and an initial value should be assigned before the first use.
+          
+     - Class Variables ( Static Variables)
+          - Declared within a class, outside any method, with the static keyword.
+          - You can create a single copy of the static variable and share it among all the instances of the class. 
+          - Memory allocation for static variables happens only once when the class is loaded in the memory.
+
+     - Instance Variables ( Non - static Variables)
+          - inside the class but outside the body of the method, 
+          - It is not declared as static.
+          - These variables are initialized when the class is instantiated
+          - Instance variables can be accessed from inside any method, constructor or blocks of that particular class.
+          - Instance variables are declared in a class, but outside a method, constructor or any block.
+          - When a space is allocated for an object in the heap, a slot for each instance variable value is created.
+          - Instance variables are created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed.
+          - Instance variables hold values that must be referenced by more than one method, constructor or block, or essential parts of an object's state that must be present throughout the class.
+          - Instance variables can be declared in class level before or after use.
+          - Access modifiers can be given for instance variables.
+          - The instance variables are visible for all methods, constructors and block in the class. Normally, it is recommended to make these variables private (access level). However, visibility for subclasses can be given for these variables with the use of access modifiers.
+          - Instance variables have default values. For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
+          - Instance variables can be accessed directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. ObjectReference.VariableName.
+
+Typecasting in Variable ?
+     - public class Simple{  
+          public static void main(String[] args){  
+          float f=10.5f;  
+          //int a=f;//Compile time error  
+          int a=(int)f;  
+          System.out.println(f);  
+          System.out.println(a);  
+     }}  
+
+Oops ?
+     - Polymorphism
+     - Inheritance
+     - Encapsulation
+     - abstraction
+     - classes
+     - Objects
+     - Instance
+     - method
+     - Message passing
+
+Class in Java ?
+     - Class can be defined as a Template/ blue print
+     Constructor:
+          -  The main rule of constructors is that they should have the same name as the class
+          - Every class has a constructor.
+          - If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
+          - Each time a new object is created, at least one constructor will be invoked 
+     Code:
+          public class Dog {
+                String breed;
+                int age;
+                String color;
+                void barking() {
+                }
+
+                void hungry() {
+                }
+                void sleeping() {
+                }
+          }              
+
+Object in Java ?
+     Object:
+          - Object have states and behaviors
+               - dog as state color, name , bread
+               - dog as behaviors like barking , eating
+     Create the Object:
+          - Declaration 
+               - a Variable Declaration with a variable name with an object type
+          - Instantiation:
+               - The 'new' keyword is used to create the object.
+          - initialization:
+               - the new keyword is followed by a call to a constructor. this call initialization the new object.
+     Accessing Instance Variables and Methods:
+          public class Puppy {
+               int puppyAge;
+               public Puppy(String name) {
+                    // This constructor has one parameter, name.
+                    System.out.println("Name chosen is :" + name );
+               }
+               public void setAge( int age ) {
+                    puppyAge = age;
+               }
+               public int getAge( ) {
+                    System.out.println("Puppy's age is :" + puppyAge );
+                    return puppyAge;
+               }
+               public static void main(String []args) {
+                    /* Object creation */
+                    Puppy myPuppy = new Puppy( "tommy" );
+
+                    /* Call class method to set puppy's age */
+                    myPuppy.setAge( 2 );
+
+                    /* Call another class method to get puppy's age */
+                    myPuppy.getAge( );
+
+                    /* You can access instance variable as follows as well */
+                    System.out.println("Variable Value :" + myPuppy.puppyAge );
+               }
+          }
+
+Source File Declaration Rules in java ?
+     - These rules are essential when declaring classes, import statements and package statements in a source file
+          - There can be only one public class per source file.
+          - A source file can have multiple non-public classes.
+          - The public class name should be the name of the source file as well which should be appended by .java at the end.
+               For example: 
+               the class name is public class Employee{} then the source file should be as Employee.java.
+
+Data Type in Java ?
+     - Primitive Data Types
+          Default value is 0
+     - Reference/Object Data Types
+
+     Primitive Data Types
+          - byte
+               Byte data type is an 8-bit signed two's complement integer
+          - int
+              Int data type is a 32-bit signed two's complement integer.
+              Minimum value is - 2,147,483,648 (-2^31)
+              Maximum value is 2,147,483,647(inclusive) (2^31 -1)
+              Integer is generally used as the default data type for integral values unless there is a concern about memory.
+              The default value is 0
+              Example: int a = 100000, int b = -200000
+          - char
+               char data type is a single 16-bit Unicode character
+          - boolean
+               boolean data type represents one bit of information
+               There are only two possible values: true and false
+               This data type is used for simple flags that track true/false conditions
+               Default value is false
+          - double
+               double data type is a double-precision 64-bit IEEE 754 floating point
+               This data type is generally used as the default data type for decimal values, generally the default choice
+               Double data type should never be used for precise values such as currency
+          - float
+               Float data type is a single-precision 32-bit IEEE 754 floating point
+               Float is mainly used to save memory in large arrays of floating point numbers
+               Default value is 0.0f
+               Float data type is never used for precise values such as currency
+          - long
+               Long data type is a 64-bit signed two's complement integer
+               Minimum value is -9,223,372,036,854,775,808(-2^63)
+               Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1)
+               This type is used when a wider range than int is needed
+               Default value is 0L
+               Example: long a = 100000L, long b = -200000L
+          - short
+               Short data type is a 16-bit signed two's complement integer
+               Minimum value is -32,768 (-2^15)
+               Maximum value is 32,767 (inclusive) (2^15 -1)
+               Short data type can also be used to save memory as byte data type. A short is 2 times smaller than an integer
+               Default value is 0.
+               Example: short s = 10000, short r = -20000
+
+
+     Reference/Object Data Types:               
+
+Operators in Java ?
+     operators to manipulate variables.
+          The Arithmetic Operators:     +, -, *, /, %, ++, --
+          The Relational Operators:     ==, !=, > ,< ,>= ,<=
+          The Bitwise Operators:          & , | , ^,  ~ ,<< ,>> , >>> 
+          The Logical Operators:          && , || , ! 
+          The Assignment Operators:     =,+= , -=, *= , /= , %/ , <<= , >>= , &= , ^= , |=
+          Miscellaneous Operators:      
+               Conditional Operator ( ? : )
+                    variable x = (expression) ? value if true : value if false
+          instanceof Operator:     
+               This operator is used only for object reference variables. The operator checks whether the object is of a particular type (class type or interface type). instanceof operator is written as −
+                    ( Object reference variable ) instanceof  (class/interface type)
+               If the object referred by the variable on the left side of the operator passes the IS-A check for the class/interface type on the right side, then the result will be true
+          

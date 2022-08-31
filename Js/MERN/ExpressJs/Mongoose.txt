@@ -1,0 +1,5 @@
+
+1. Mongoose difference between Connect and Create connection ?
+          _ when there is only one connection mongoose.connect() is use, whereas if there is multiple instance of connection mongoose.createConnection() is used.
+          _ when you use createConnection you supposed to use assigned variable name.model while creating model otherwise you can use mongoose.model
+

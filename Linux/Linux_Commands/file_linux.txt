@@ -1,0 +1,61 @@
+1. -------------- cat 
+    cat ___displaying the content of file.
+    any modification not going to apply in original file it just display.
+    syntax:cat [options] [fname]
+
+    cat___it take some text and repute same text.
+    ctrl+d___ end of the file to leave that place.
+    cat fname___ show the content of the file what it have.
+    cat fname fname ___ combine the two files data and show it one place.
+        -b which will add line number to non blank line and show.
+        -n  it'll add to line number for all line.
+        -s  it squeezes log blank line to one blank line.
+        -E  adds $ symbol for each line end.
+2. --------------  less 
+    read the file and search the file content like patten or word.\
+    for the having really big file.
+    syntax : less [fname]
+
+    less fname ___ show the file it has couple of letter to move end top like .
+        - G to go file end.
+        - g to go top file.
+        - /keyword - it i'll search the match word.
+            > n - to go next item
+        - ?keyword - it search down to up. 
+        - q - to quit .
+3. -------------- touch
+    touch to create file.
+    syntax :touch [fname]
+
+    touch fname ___ to create new empty file.
+        - if the file is not exist it create.
+        - if the file exist it change the file create time to now.
+4.-------------- nano
+    nano is a small and friendly text editor.
+
+    - nano fname ___ it can use for create file 
+5. -------------- gedit
+
+    giyee edit on linux __ defualt edit
+6.--------------  head and tail 
+    head - output the first part of files
+    tail -output the last part of files
+
+    head fname ___ show first 10 lines.
+    tail fname ___ last 10 lines.
+    head -n 30 01_linux.txt  ___ show first 30 lines.
+7.  -------------- grep
+    _ global regular expression print
+    _ used in text file
+    _ grep "(word or sentence)" fname
+        i - make case insensitive
+        n- print line number
+        v- search line doesn't contain this patten
+    _ we can use grep comment for multiple file
+8. --------------- wc
+    _ word count for each file
+    _ wc fname
+    
+
+
+

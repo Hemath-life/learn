@@ -1,0 +1,37 @@
+1. -------------- Run multiple comment
+    syntax:comment ; comment ; comment (or) comment && comment
+     _ execute sequently
+    _ or ;   - all comment will execute.
+    _ and && - first comment fails all comment will fail
+    _ || - first is true rest of all not execute
+ 
+    _ ls ; pwd
+    _ cal ; date
+
+2. -------------- apt-get
+    _for all debian based you can use apt-get
+    _ apt-get update   resync the file
+    _ /etc/apt/ -- here you can found you have installed
+    _ apt-get java  install the java
+
+    _ apt-get remove fname  - it not going to remove any configuration and dependence it just remove file.
+    _ apt-get  remove  --purge fname - remove all configuration  file
+    _apt-get autoremove - remove unused library and software
+
+3. -------------- tar
+    _ alow to create a tar file 
+    _ tar -cvf name.tar folderName
+        c  creating tar file
+        v to see what happeing
+        f for allowing the file name else it create onw file name
+
+    _ tar -xvf nameTar
+        x extracting 
+
+    _ tar -cvfz name.tar.gz folderName
+        z must come after c
+    _ tar -xvfz  folderName.tar.gz
+        
+
+4. ---------------- netstat
+    _ network statistic 

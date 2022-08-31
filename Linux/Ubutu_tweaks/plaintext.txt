@@ -1,0 +1,5 @@
+1. sudo apt-get install parrot-tools
+
+
+2. sudo apt-get install etherape
+    -sudo etherape

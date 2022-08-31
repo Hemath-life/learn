@@ -1,0 +1,6 @@
+1. White Space ?        
+2. alignment ?
+          _ every element like rows and column.
+
+
+

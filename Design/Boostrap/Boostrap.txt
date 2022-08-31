@@ -1,0 +1,207 @@
+What's Bootstrap ?
+          _ Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+
+Sizing ?
+        _ Width - w      &&      Height - h
+                w-auto   h-auto 
+                w-25     h-25    =      Width 25%       height 25%
+                w-50    h-50    =       Width 50%       height 50%
+                w-75    h-75    =       Width 75%       height 75%
+                w-100   h-100   =       Width 100%      height 100%            
+                mw- ..   mh-..   =        max width      max height
+                vw-100  vh-100   =      Width 100vw     Height 100vh       
+                min-vw-100   min-vh-100  =       Min-width 100vw        Min-height 100vh
+
+        _ Padding - p     &&      Margin - m
+                t      =        margin-top or padding-top
+                b      =        margin-bottom or padding-bottom
+                l      =        margin-left or padding-left
+                r      =        margin-right or padding-right
+                x      =        both *-left and *-right
+                y      =        both *-top and *-bottom
+
+                0       =        the margin or padding by setting it to 0
+                1       =         set the margin or padding  * .25rem
+                2       =         set the margin or padding  * .5rem
+                3       =         set the margin or padding 
+                4       =         set the margin or padding  * 1.5rem
+                5       =         set the margin or padding  * 3rem
+                auto    =       set the margin to auto
+
+Borders ?
+        _ Additive
+                border
+                border-top
+                border-right
+                border-bottom
+                border-left
+
+        _ Subtractive
+                border-0
+                border-top-0
+                border-right-0
+                border-bottom-0
+                border-left-0
+
+        _ Border color
+                border-primary
+                border-secondary
+                border-success
+                border-danger
+                border-warning
+                border-info
+                border-light
+                border-dark
+                border-white
+
+        _ Border-radius
+                rounded
+                rounded-top
+                rounded-right
+                rounded-bottom
+                rounded-left
+                rounded-circle
+                rounded-0
+
+Navbar documentation(order wise) ?
+        _ JQuery link is mandatory
+        _  Navbar
+                .navbar 
+                .navbar-expand-{breakpoint}.
+                Navbar color & Background color
+                        navbar-{value}     
+                        bg- {value}
+                                value:
+                                        light
+                                        dark
+
+         _Navbar brand
+                .navbar-brand
+        _ 
+                class="navbar-toggler"
+                type="button" 
+                data-toggle="collapse"
+               data-target="#navbarText"
+                class="navbar-toggler-icon"
+               <div class="collapse navbar-collapse"
+                id="navbarText">
+        _Nav
+               Navbar navigation links build on our .nav 
+                .navbar-nav 
+                        ml-auto - to show list items to right
+                        mr- auto - to move list items to left
+                .nav-items
+                .nav-links
+                .active
+        _ Forms
+                div.form-inline
+                input.form-control , type="search" , placeholder="Search" ,aria-label="Search"
+                button type="submit"   
+        _ Navbar Text
+                .navbar-text
+
+   
+
+
+
+
+[   ------------------------------------  expand option  for upcoming properties -------------------------------------------     ]
+Make responsive ?
+        _ container for a responsive pixel width or .container-fluid for width: 100% across all viewport and device sizes.
+                value:
+                        .container
+                        .container-fluid
+
+Breakpoint ?
+        _ Extra small <576px
+        _ sm    =       Small ≥  576px
+        _ md    =       Medium  ≥  768px
+        _ lg    =       Large  ≥  992px 
+        _ xl    =       Extra large  ≥  1200px
+
+Grid system ?
+        _ Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive.
+        _ by default 12 column  
+        _ based on our div{col} it will auto define the columns
+        _ Grid options
+                - row 
+                - col
+                - col- {value}
+                - col-{breakpoint}-{value}
+                        ~ value
+                                auto
+                                1,2,3,4,5,6,7,8,9,10,11,12
+                - Extra small <576px
+                - sm    =       Small ≥  576px
+                - md    =       Medium  ≥  768px
+                - lg    =       Large  ≥  992px 
+                - xl    =       Extra large  ≥  1200px
+
+Display property ?
+        _ Display
+                d-{value} for xs
+                 d-{breakpoint}-{value}
+                value:
+                        none
+                        inline
+                        inline-block
+                        block
+                        table
+                        table-cell
+                        table-row
+                        flex
+                        inline-flex        
+        _ Flex Direction
+                - flex-{value}
+                - flex-{breakpoint}-{value}
+                value
+                        row
+                        row-reverse
+                        column
+                        column-reverse               
+        _  Justify Content 
+                justify-content-{value}
+                justify-content-{breakpoint}-{value}
+                value:
+                        start
+                        end
+                        center
+                        between
+                        around               
+        _ Align items
+                align-content-{value}
+                align-content-{breakpoint}-{value}
+                value
+                        start
+                        end
+                        center
+                        around
+                        stretch
+        _ Align self
+                align-self-{value}
+
+Text ?
+        _ Text alignment
+                text-{value}
+                text-{breakpoint}-{value}
+                value
+                        justify
+                        left
+                        center
+                        right
+        _ Text transform
+                text-lowercase
+                text-uppercase
+                text-capitalize
+        _ Font weight and italics
+                font-weight-bold
+                font-weight-normal
+                font-weight-light
+                font-italic
+
+Embeds ?
+        <div class="embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" src="..."></iframe>
+        </div>
+
+

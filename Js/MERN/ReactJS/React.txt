@@ -1,0 +1,156 @@
+																		1. what's a framework ?
+ Answer:
+   _ if you want create complex application we need ready made things or pre build things. which we call framework.
+
+2. React Features ?
+ Answer:
+   _  Best JavaScript framework among web developers. It is playing an essential role in the front-end ecosystem. The important features of ReactJS are as following.
+
+      - JSX
+         ~ JSX stands for JavaScript XML.
+         ~ It is a JavaScript syntax extension. 
+         ~ Its an XML or HTML like syntax used by ReactJS.
+         ~ This syntax is processed into JavaScript calls of React Framework. 
+         ~ It extends the ES6 so that HTML like text can co-exist with JavaScript react code.
+         ~ It is not necessary to use JSX, but it is recommended to use in ReactJS.
+
+      -Components:
+         ~ ReactJS is all about components.
+         ~ ReactJS application is made up of multiple components, and each component has its own logic and controls. 
+         ~ These components can be reusable which help you to maintain the code when working on larger scale projects.
+
+      -One-way Data Binding:
+         ~ReactJS is designed in such a manner that follows unidirectional data flow or one-way data binding. 
+         ~The benefits of one-way data binding give you better control throughout the application.
+         ~ If the data flow is in another direction, then it requires additional features.
+         ~ It is because components are supposed to be immutable and the data within them cannot be changed. 
+         ~Flux is a pattern that helps to keep your data unidirectional.
+         ~ This makes the application more flexible that leads to increase efficiency.
+
+      -Virtual DOM:
+         ~ A virtual DOM object is a representation of the original DOM object. like a lightweight .
+         ~ A virtual DOM object has the same properties as a real DOM object
+         ~ It works like a one-way data binding. Whenever any modifications happen in the web application, the entire UI is re-rendered in virtual DOM             representation. 
+         ~ Then it checks the difference between the previous DOM representation and new DOM. Once it has done, the real DOM will update only the things that have actually changed. This makes the application faster, and there is no wastage of memory.
+         ~ example:
+            > The DOM is fast. Adding and removing DOM nodes doesn’t take much more than setting a property on a JavaScript object. It’s a simple operation.
+            
+            > What is slow, however, is the layout that browsers have to do whenever the DOM changes. Every time the DOM changes, browser need to recalculate the CSS, do layout, and repaint the web page. This is what takes time.
+            > Browser makers are continually working to shorten the time it takes to repaint the screen. The biggest thing that can be done is to minimize and batch the DOM changes that make redraws necessary.
+            >This strategy of reducing and batching DOM changes, taken to another level of abstraction, is the idea behind React’s Virtual DOM.
+         
+         How Does Virtual DOM Work?
+            > Like the actual DOM, the Virtual DOM is a node tree that lists elements and their attributes and content as objects and properties. React’s render() method creates a node > > tree from React components and updates this tree in response to mutations in the data model, caused by actions.
+            > Each time the underlying data changes in a React app, a new Virtual DOM representation of the user interface is created
+            > This is where things get interesting. Updating the browser’s DOM is a three-step process in React.
+            > Whenever anything may have changed, the entire UI will be re-rendered in a Virtual DOM representation.
+            > The difference between the previous Virtual DOM representation and the new one will be calculated.
+            > The real DOM will be updated with what has actually changed. This is very much like applying a patch.
+
+         Is the Virtual DOM Slow?
+            > One would think that re-rendering the entire Virtual DOM every time there’s a possibility that something has changed would be wasteful — not to mention the fact that at any one time, React is keeping two Virtual DOM trees in memory.
+           >  But, the truth is that rendering the Virtual DOM will always be faster than rendering a UI in the actual browser DOM. It doesn’t matter what browser you’re using: this is just a fact. But it’s also sort of irrelevant.
+
+
+                        
+
+      -Simplicity:
+         ~ ReactJS uses JSX file which makes the application simple and to code as well as understand. ~ We know that ReactJS is a component-based approach which makes the code reusable as your need. 
+         ~ This makes it simple to use and learn.
+
+      -Performance:
+         ~ ReactJS is known to be a great performer.
+         ~ This feature makes it much better than other frameworks out there today. The reason behind this is that it manages a virtual DOM. 
+         ~ The DOM is a cross-platform and programming API which deals with HTML, XML or XHTML. 
+         ~ The DOM exists entirely in memory. 
+         ~Due to this, when we create a component, we did not write directly to the DOM. Instead, we are writing virtual components that will turn into the DOM leading to smoother and faster performance.
+           
+3. what's the difference beechen the library and module ?
+   _ library may  contain lot of function and module
+   _ module contain reated functions only 
+      - example:
+         math module it contain only maths functionality.
+            
+4. What's JSX ?
+ Answer:
+    _ jsx - javascript xml which follows xml syntax.
+    _ all element should be closed like xml . 
+    _ we can write code without jsx . jsx makes life easier.
+    _ jsx code. convert jsx code to javascript via babel.
+    _ babel also does future javascript to browser compartabel code.
+    _ babel inbuilt in react js.
+
+5. What's react.CreateElement ?
+ Answer:
+    _  it takes type,property,child.
+        -type: type of the html element or components (h1,h3,button,etc)
+        -property for html we call attributes for the components we call props:
+             the properties object {{style:{color:'red'},etc attributes} or className or event handlers.
+        -anything you need to pass between the dom element.
+
+6. What's props ?
+ Answer:
+   _ props: when we create own element via component that element can have attributes that we call props.
+   _ html have attributes like that when we create own element it have attributes. which we call props.
+   _ in end useage props are read only you can't assgn value con't modify.
+
+7. What's React HOOK ?
+  Answer:
+  _ Instead of using eventListener etc in js . here we use useState
+   _ only use hooks inside the functional component otherwise not work coz already have way to hooks do.
+   _ you can't use react hook inside the condition like if else erc.
+   _ When update the hooks useState it's going to re-render the current component.
+   _ hook give as to useState it's make interactive.
+   _ all element have attribute called onClick mouseover etc.
+   _ Problem here is create a interactive count the number without reloading the web page.
+      - useState comes from the react module.
+      - react.useState(initial value) and output wil be array that array have value and function.
+      - useState(initial value)
+      - render particular element or component
+      - it's only update which part we needs to be change.
+      - out put is array
+
+8. Destructuring in Javascript.
+ Answer:
+     - destructuring complex structure  objects and array.
+     - destructuring noting but like unpacking in python we have same concept.
+     - var c = [1,2]  var [a,b]=c
+     - var [a,b] = [1,2]
+
+9. Class component vs Functional component.
+   Answer:
+   - before we have two ways to create hook state one is Class component and functional component.
+   - functional components is very easy .
+
+10. Class components ?
+   Answer:
+      - class components is old way to create hook useState
+      - kinda difficult.
+      - you can't use hook State in class component
+
+11. State full and status less component ?
+   Answer:
+      - That means the stateful components are keeping track of changing data and render particular component only.
+      - while stateless components print out what is given to them via props.
+      - stateful components. Basically, a stateful component has a state object.
+ 
+12. Event Handling in React ?
+   
+
+13. How braces { } are used?
+   Answer:
+      - Curly braces { } are special syntax in JSX. It is used to evaluate a JavaScript expression during compilation. 
+      A JavaScript expression can be a variable, function, an object, or any code that resolves into a value.
+      - JSX ({}) allows inject javascript in html 
+      example:
+         - This is work 
+                var style = [<h1>how</h1>, <h1>you</h1>, <h4>Good morning</h4>]
+                function App() {
+                return (<h1> { style}</h1>)
+                }
+         - This not work
+                var style = [<h1>how</h1>, <h1>you</h1>, <h4>Good morning</h4>]
+                function App() {
+                return ({ style})
+                }
+        

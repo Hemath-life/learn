@@ -1,0 +1,172 @@
+-------------------------- [ General things  ] -----------------------
+    1. Build your own X 
+        _ build your own technology 
+            - example: like how to build bot,apps, libraries and tons of more ideas.
+            
+    2. Public APIs
+        _ list of free APIs that we can use.
+
+    3. Free Programming Books
+        _ Free Programming Books podcast, Interactive tutorials
+        _ PDFs
+            - https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#c
+
+    4. CheatSheet
+        _ https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-cheatsheets.md
+
+-------------------------  [ Web Designing ] ------------------------
+    1. Color 
+        _ while applying colors on the page use following rules
+            - Rule -1
+                ~ choose any 3 colors and apply
+                ~  60% +  30% + 10%  = 60% one color 30% one color 10% one color 
+                ~ 10% you can use for attract line button so on.
+
+        _ https://mycolor.space/                                   =   :)
+        _ https://uigradients.com/#Frozen
+        _ https://coolors.co/
+        _ https://colorhunt.co/                                 =   :)
+        _ https://www.awwwards.com/
+
+    2. Pattern Images
+        - https://patternico.com/
+        - http://thepatternlibrary.com/
+        - https://www.heropatterns.com/
+        - Creative Market
+            _ Before you do anything else, go get on the Creative Market newsletter list. Once a week, you’ll get an email packed with 5 free downloads, including everything from patterns and fonts to templates and themes.
+
+    3.  Animation Via JS 
+        _ https://gsap.com/                              =   :)
+        _ https://animejs.com/                               =   :)
+        _ https://thednp.github.io/kute.js/                                =   :)
+        _ https://simpleparallax.com/                               =   :)
+        _ https://sarcadass.github.io/granim.js/                              =   :)
+        _ https://offirgolan.github.io/ember-burger-menu/                               =   :)
+        _ https://mojs.github.io/
+
+    4. IDE  and Examples
+        _ https://dribbble.com/                              =   :)
+        _ behance
+        _ awwward
+        _ http://www.canva.com/
+        _https://www.figma.com/
+        
+    5. Images
+        _  PicJumbo
+            - Get free photos delivered to your inbox that are totally free for personal and commercial use.
+        _  Gratisography
+            - Free high-resolution images that you can use in personal and commercial projects. They have easy-to-browse categories: animals, nature, objects, whimsical, and more.
+        _ New Old Stock
+            - Get free, vintage photos from public archives.
+        _  Stock Up 
+            - Search over 9,000 photos from 26 different websites, all in one place.
+        _ SplitShire
+            - Free, high quality stock photos by an Italian photographer.  
+        _ 18. Magdeleine
+                - 1 free high-res photo per day.
+        _ https://www.splitshire.com/                             =   :)
+        _ https://cupcake.nilssonlee.se/
+        _ https://www.pexels.com/
+        _ https://unsplash.com/                           =   :)
+        _ https://tinypng.com/
+        _ https://pixabay.com/
+        _ https://picsum.photos/                              =   :)
+        _ https://magdeleine.co/
+        
+    6. SYMBOLS + ICONS
+        _ https://fontello.com/
+        _ https://fontawesome.com/
+        _ https://www.flaticon.com/
+        _ http://endlessicons.com/
+
+    7. FONTS
+        _ https://fonts.google.com/
+        _ https://www.canva.com/font-combinations/                               =   :)
+                - Font pairing generator.
+
+     8. BACKGROUNDS + TEXTURES
+        _ https://pattern8.com/
+    9. UI kit
+        _ http://psdbooster.com/freebies/
+        
+    8. Colors
+        _ https://www.materialui.co/
+        _ https://paletton.com/
+        _ http://www.flatuicolorpicker.com/
+        _ https://color.adobe.com/create/color-wheel
+        _ https://www.0to255.com/
+
+        
+
+    9. Image related
+        _ Online Image Editor
+            - https://pixlr.com/
+
+        _ Social Media template
+            - https://socialsizes.io/
+
+        _ info gram
+            - https://infogram.com/
+
+        _ Book Builder
+            - https://gingersauce.co/
+            
+        _ screen recorder
+            - https://getkap.co/
+
+    6. html css Javascript
+        _ https://codesandbox.io/                         =   :)
+        _ https://codepen.io/                           =   :)
+        _ https://jsfiddle.net/                           =   :)
+        _ https://code.sololearn.com/#html                           =   :)
+        _ https://the-echoplex.net/flexyboxes/
+        _ https://esfiddle.net/
+        _ https://dabblet.com/ for css
+        _ https://cssdeck.com/
+        _ https://css-tricks.com/                             =   :)
+
+    7. React JS
+        _ http://www.hackingwithreact.com/
+
+    6.  Bootstrap
+        _ https://bootswatch.com/flatly/                              =   :)
+
+-------------------------  [ Learning Places ] ------------------------
+    1. Learning
+        _ https://www.freecodecamp.org/                             =   :)
+        _ https://github.com/kamranahmedse/developer-roadmap        =   :)
+        _ https://github.com/getify/You-Dont-Know-JS
+        _ https://github.com/vinta/awesome-python                   =   :)
+    
+    2. CDN Search
+        _ https://cdnjs.com/                                        =   :)
+        
+    3. Skill Testing
+        _ https://coderbyte.com/                                    =   :)
+        _ https://www.hackerrank.com/
+            - google
+        _ https://www.topcoder.com/                                 =   :)
+        
+    4. Freelancing
+        _ https://www.topcoder.com/                                 =   :)
+
+--------------------------------- [ IDE  ] --------------------------------
+    1. python
+        _ https://trinket.io/python  for Animation                          =   :)
+        _ https://repl.it/repls/NiceDualPoint#main.py                                 =   :)
+        _ https://www.python.org/shell/
+
+    2. java
+        _ https://ideone.com/
+
+    3. NodeJS
+        _ https://nodeschool.io/
+
+    4. React Native 
+        _ https://appitr.com/                       =   :)
+
+-------------------------------  [Notes]  --------------------------------
+    
+    2. DataStructure
+        _ https://visualgo.net/en
+

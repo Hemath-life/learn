@@ -1,0 +1,92 @@
+1. whats is shell 
+          - shell script is  interpreted by operating system .
+          - lot of type shell 
+                    _  bash - born again shell 
+          - to see system support shell - /etc/shells
+          - optional to add extension .sh
+          - # for comment 
+          - #! shebang or hashbang  
+
+2. comment 
+          - # 
+          - comment are line and code which write for user understand purpose .
+
+3. variables
+          - sting number 
+          - two type variables
+                    _ system variables or predefine variables in capital
+                    _ user define variables in lower case 
+                              ~ should now start with number
+
+4. input
+          - syntax : read variable name
+                    p - allows to enter input same line
+                    s - hide the input information 
+                    read  -p "username :" user_val
+          - if you don't specify the variable name it save by default in REPLY variable
+          
+5. array 
+          a - represent array
+          - print array ${name[index]}
+
+6. passing arguments
+          - whenever we start script and you can pass some arguments
+          - when we pass arguments it will store default variables
+                    _ $0 $1 $2 $3 etc.
+                    _ $0 will be script file name
+          - $@ store arguments in array
+                    _ args = ("$@")
+                    _ ${args[0]} - will be arguments value 1 not 0 
+          - #  - give number of arguments give
+                    _ echo $# 
+
+7. if and else
+          - syntax:
+                     if [condition] or if((condition)) while using the operators like > < etc smbol
+                    then 
+                              statements
+                    fi 
+
+                     if [condition] or if((condition)) while using the operators like > < etc smbol
+                    then 
+                              statements
+                    else
+                              statement
+                    fi 
+
+                     if [condition] or if((condition)) while using the operators like > < etc smbol
+                    then 
+                              statements
+                    elif [condition] 
+                    then      
+                              statement
+                    else
+                              statement
+                    fi 
+          - fi is end of the if statement
+
+
+
+
+
+
+
+operators
+          integer
+                    > greter then
+                    < less then
+                    <=
+                    >=
+                    ne not equal
+          sting
+                    = equal
+                    == equal
+                    != not equal
+                    < is less then ASCII aphabetic order
+                    > is greter then ASCII aphabetic order
+                    -z sting null or that as zero lenth
+
+errors:
+          - identify errors   
+                    _ based on flag position we'll get 
+          
