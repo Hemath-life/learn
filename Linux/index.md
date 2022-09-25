@@ -4,7 +4,7 @@
 ## 2. <a href="vim.md">Vim</a>
 ## 3. <a href="editor.md">Setup default editor</a>
 ## 4. <a href="cron.md">Cron jobs</a>
-## 5. [customization](/customization/1.md)
+## 5. [Customization](/customization/1.md)
 
 
 ### Topics to Look 
