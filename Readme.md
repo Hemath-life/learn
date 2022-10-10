@@ -64,3 +64,5 @@
 ### [CI/CD](./Integrations/index.md)
 
 ### [Use full websites](./website/index.md)
+
+## [os rufus] (https://rufus.ie/en/)
