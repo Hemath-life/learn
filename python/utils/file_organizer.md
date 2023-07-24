@@ -1,3 +1,4 @@
+```py
 import os
 import shutil
 
@@ -35,3 +36,5 @@ if __name__ == "__main__":
     # Change this path to the desired directory that you want to organize
     current_directory = './'
     organize_files(current_directory)
+
+```
