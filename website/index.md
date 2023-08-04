@@ -19,7 +19,9 @@
 ## Current tech websites
 - [hackernoon](https://hackernoon.com/) - learning 
 
-- [dailydev](https://daily.dev/) - learning 
+- [dailydev](https://daily.dev/) - learning
+
+- [Road map](https://roadmap.sh/)
   
 ## [Create alter sentence for give sentence]
 
