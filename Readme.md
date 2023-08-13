@@ -43,6 +43,8 @@
 
 ### Web
 
+### [Browser scripts]
+
 ### [Http](./web/HTTP/01_web.md)
 
 ### [Wordpress](./web/wordpress/index.md)
