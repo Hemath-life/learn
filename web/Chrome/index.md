@@ -1,6 +1,6 @@
 1. unsubscript the youtube channels in youtubewebsite
-   ``` js
-   (async function iife() {
+   ```
+  (async function iife() {
   const UNSUBSCRIBE_DELAY_TIME = 1100; // Increased delay time
   const channels = Array.from(document.querySelectorAll('ytd-channel-renderer'));
 
@@ -34,10 +34,12 @@ function runAfterDelay(fn, delay) {
     }, delay);
   });
 }
+
 ```
 
+
 ## hide some sections in youtbe websties
-``` js
+```js
 (async function iife() {
   // Get the comments section element
   const commentsSection = document.querySelector('.ytd-comments');
