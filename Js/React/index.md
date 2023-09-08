@@ -9,7 +9,7 @@
 - [React Scripts](./Basics/01.md#react-scripts)
 - [Understanding React Components](./Basics/01.md#react-component)
   - [The Importance of React Keys](./Basics/01.md#react-key)
-- [JSX: JavaScript XML](./Basics/01.md#jsx)
+- [JSX: JavaScript XML](./Basics/01.md#jsx-javascript-xml)
 - [Working with State](./Basics/01.md#state)
   - [Re-rendering in React](./Basics/01.md#re-render)
   - [Shallow Merge in State Updates](./Basics/01.md#shallow-merge)
