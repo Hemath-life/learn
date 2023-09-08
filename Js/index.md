@@ -1,59 +1,64 @@
-## Pls choose topics to dive dipper
+# Topics to Dive Deeper
 
-[Core concepts of Javascript](./core/index.md)
+Choose from the following topics to dive deeper into JavaScript:
 
-[Oops in with Js](./oops/js.oops.md)
+- [Core Concepts of JavaScript](./core/index.md)
+- [Object-Oriented Programming in JavaScript](./oops/js.oops.md)
+- [Promises](./promise/promise.md)
+- [Regular Expressions](./regex.md)
+- [Utilities](./utils/utils.md)
+- [npm](./npm/index.md)
+- [JavaScript Visualized](./visualized/index.md)
+  - Event Loop
+  - Hosting
+  - Scope (Chaining)
+  - JavaScript Engine
+  - Prototypal Inheritance
+  - Generators and Iterators
 
-[Promises](./promise/promise.md)
+# Libraries
 
-[Regular expression](./regex.md)
+Explore JavaScript libraries:
 
-[Utilities](./utils/utils.md)
 
-[npm](./npm/index.md)
 
-[JavaScript Visualized](./visualized/index.md)
+# Frameworks
 
-- Event Loop
-- Hosting
-- Scope (Chaining)
-- Js Engine
-- Prototypal Inheritance
-- Generators and Iterators
+Discover JavaScript frameworks:
 
-## Library's
+- [Express Js](./ExpressJs/Index.md)
+- [Sails Js](./sailsjs/index.md)
 
-[React Js](./ReactJs/Index.md)
+# Testing
 
-## Frameworks
+Learn about testing in JavaScript:
 
-[Express Js](./ExpressJs/Index.md)
+- [Jest Js](./jest/01.md)
 
-[Sails Js](./sailsjs/index.md)
+# ORM
 
-## Testing
+Explore Object-Relational Mapping (ORM):
 
-[Jest Js](./jest/01.md)
+- [Bookshelf Js](./orms/bookshelf/index.md)
 
-## Orm
-[Bookshelf Js](./orms/bookshelf/index.md)
+# Topics to Cover
 
-## Topics to cover
+Delve into various JavaScript topics:
 
-[The ABCs of Javascript](./abc.md)
+- [The ABCs of JavaScript](./abc.md)
+- [Handling Node.js as an Asynchronous Application with Error Handling](./sync.async.md)
+- [The Difference Between a Class and a Prototype in JavaScript](./prototype.class.md)
+- [The Difference Between forEach, filter, map](./ES16.md)
 
-[Handling Node.JS as an Asynchronous Application with Error Handling](./sync.async.md)
+# Shortcut Ways
 
-[The Difference Between a Class and a Prototype in JavaScript](./prototype.class.md)
+Discover JavaScript shortcut ways:
 
-[The Difference Between forEach , filter ,map](./ES16.md)
+- [Tips and Tricks](./tips_and_tricks/trick.md)
+- [Conditional Logics](./condition.md)
 
-## Short cut ways
+# Deployment
 
-[Tips and Tricks](./tips_and_tricks/trick.md)
+Learn about deploying JavaScript applications:
 
-[Conditional logics](./condition.md)
-
-## deployment
-
-[Heroku with Node Js](./deployment/index.md)
+- [Heroku with Node.js](./deployment/index.md)

@@ -1,0 +1,56 @@
+AWS CRED
+CODE BUILDER 
+khemathlife@gmail.com
+Thisisworking1!
+
+
+instructions:
+- read give points 
+- rewrite them with valid points 
+- give me very shorter version points 
+- give me easy understand format 
+- if want and symbol or emojis 
+
+output:
+- give me in markdown format
+
+
+Instructions:
+
+Read the provided points.
+Rewrite them with valid information.
+Create a shorter version of the points.
+Format them for easy understanding.
+Consider using symbols or emojis if desired.
+Output (Markdown Format):
+
+Read ➡️ Understand
+Rewrite ✍️ Valid Info
+Shorten ✂️ Simplify
+Format ✨ Clarity
+Emojis/🔤 Symbols
+
+
+Instructions:
+
+- Read give points
+- Rewrite them with valid points
+- Give me very shorter version points
+- Give me easy understand format
+- If want and symbol or emojis
+
+Output:
+
+- Give me in markdown format
+
+
+
+Instructions:
+1. Read the provided points.
+2. Revise them to ensure validity.
+3. Condense the points.
+4. Format them for easy comprehension.
+5. Consider using symbols or emojis as desired.
+
+output:
+1. give me output in raw markdown format code 
