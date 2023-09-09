@@ -9,8 +9,10 @@
   - [NoSQL](#nosql)
   - [SQL](#sql)
   - [Database Engineering](#database-engineering)
+    - [\[Browser scripts\]](#browser-scripts)
+    - [Http](#http)
 - [Web](#web)
-  - [HTTP](#http)
+  - [HTTP](#http-1)
   - [WordPress](#wordpress)
   - [Webflow](#webflow)
 - [Tools](#tools)
@@ -69,13 +71,11 @@ Delve into the realm of databases and database engineering.
 
 ## Database Engineering
 
-<<<<<<< Updated upstream
 ### [Browser scripts]
 
 ### [Http](./web/HTTP/01_web.md)
-=======
+
 - [Database Engineering Principles](./Database/database/index.md) - Explore the principles of database engineering.
->>>>>>> Stashed changes
 
 # Web
 
@@ -99,9 +99,6 @@ Master essential tools for development and beyond.
 
 ## Git
 
-<<<<<<< Updated upstream
-## [os rufus] (https://rufus.ie/en/)
-=======
 - [Git Version Control](./tools/git/01_git.md) - Learn Git version control.
 
 ## JSON
@@ -137,4 +134,3 @@ Explore a handpicked selection of useful websites, including Rufus, a tool for c
 - [Rufus Website](https://rufus.ie/en/) - Visit the Rufus website for creating bootable USB drives.
 
 Feel free to navigate through the sections that pique your interest, and let this documentation be your guide as you embark on your learning adventure. Happy learning!
->>>>>>> Stashed changes
