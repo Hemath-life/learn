@@ -54,3 +54,37 @@
 - [Getting Started with BrowserRouter](05.md#browserrouter)
 - [Defining Routes with Route and Routes](05.md#route-and-routes-in-react-router-dom-v6)
 - [Nested Routing in React](05.md#nested-route-in-react-router-dom-v6)
+
+## State management strategies
+
+- [What the state management strategy](./redux/01.md#state-management-strategies)
+
+  - [local state management](./redux/01.md#local-component-state)
+  - [global state management](./redux/01.md#global-state-management)
+  - [remote state management](./redux/01.md#remote-data-management)
+  - [Asynchronous State Handling](./redux/01.md#asynchronous-state-handling)
+  - [Immutable Data Management](./redux/01.md#immutable-data-management)
+  - [state management for form](./redux/01.md#state-management-for-forms)
+  - [Real-Time State Synchronization:](./redux/01.md#real-time-state-synchronization)
+  - [State Management for Routing:](./redux/01.md#state-management-for-routing)
+
+- [Reducers, Actions, Dispatch, selectors](./redux/01.md#reducersactions-and-dispatch)
+
+- [Browser extensions for the react and redux ](./redux/01.md#browser-extensions-for-react-and-redux-development)
+
+- [reselect in redux](./redux/01.md#reselect)
+
+- [redux persist](./redux/02.md#redux-persist)
+
+- [Redux Thunk](./redux/02.md#redux-thunk)
+
+- [Redux saga](./redux/02.md#redux-saga)
+
+  - [redux saga vs redux thunk](./redux/02.md#redux-saga-vs-redux-thunk)
+
+- [JavaScript Generators](./redux/02.md#javascript-generators)
+
+  - [Reasons to Use Generators in JavaScript](./redux/02.md#reasons-to-use-generators-in-javascript)
+
+- [redux tool kit](./redux/02.md#redux-tool-kit)
+  `redux and state values are immutable if we are assign values to them they will be created in new member address`
