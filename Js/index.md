@@ -1,3 +1,8 @@
+# Kick Start to learn JavaScript
+
+[Basic about the javascript](./01_get_start/index.md)
+[intermediate JavaScript](./02_inter/index.md)
+
 # Topics to Dive Deeper
 
 Choose from the following topics to dive deeper into JavaScript:
