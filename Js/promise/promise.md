@@ -1,4 +1,3 @@
-
 ## Promise in JavaScript (with All the Methods)
 
 [Promise.resolve()](#promiseresolve)
@@ -9,9 +8,7 @@
 
 [Promise.catch()](#promisecatch)
 
-
 [Promise.finally()](#promisefinally)
-
 
 [Custom promise wrapper](#custom-span-classimppromisespan-wrapper)
 
@@ -191,8 +188,7 @@ const promiser = async (promise) => {
 
 We can further refactor the above code and remove the <span class='imp'>try...catch </span>block by simply returning the <span class='imp'>promise</span> using the <span class='imp'>.then()</span> and <span class='imp'>.catch()</span> handler methods:
 
-
-``` js 
+```js
 const promiser = (promise) => {
   return promise.then((data) => [data, null]).catch((error) => [null, error]);
 };

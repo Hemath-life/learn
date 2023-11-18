@@ -4,25 +4,26 @@
 
 [Things You Should Avoid With Arrow Functions](#things-you-should-avoid-with-arrow-functions)
 
-### Differences between let,const and var ?
+# Differences between let,const and var ?
 
-var
+## var
 
 - `function scoped` and `global scoped`
 
-let and var
+## let and var
 
 - `block scoped` like {}
 
-const
+## const
 
 - value con't changeable
 - array and object values can able to change
 
-let
+## let
+
 - value can changeable
 
-### `this` with Arrow Function
+# `this` with Arrow Function
 
 Inside a regular function, `this` keyword refers to the function where it is called.
 
@@ -32,23 +33,20 @@ Inside a regular function
 
 ```js
 function Person() {
-    this.name = 'Jack',
-    this.age = 25,
-    this.sayName = function () {
+  (this.name = "Jack"),
+    (this.age = 25),
+    (this.sayName = function () {
+      // this is accessible
+      console.log(this.age);
 
-        // this is accessible
+      function innerFunc() {
+        // this refers to the global object
         console.log(this.age);
+        console.log(this);
+      }
 
-        function innerFunc() {
-
-            // this refers to the global object
-            console.log(this.age);
-            console.log(this);
-        }
-
-        innerFunc();
-
-    }
+      innerFunc();
+    });
 }
 
 let x = new Person();
@@ -62,22 +60,19 @@ x.sayName();
 
 Inside an arrow function
 
-
-``` js
-
+```js
 function Person() {
-    this.name = 'Jack',
-    this.age = 25,
-    this.sayName = function () {
-
+  (this.name = "Jack"),
+    (this.age = 25),
+    (this.sayName = function () {
+      console.log(this.age);
+      let innerFunc = () => {
         console.log(this.age);
-        let innerFunc = () => {
-            console.log(this.age);
-            // Here, the innerFunc() function is defined using the arrow function. And inside the arrow function, this refers to the parent's scope. Hence, this.age gives 25.
-        }
+        // Here, the innerFunc() function is defined using the arrow function. And inside the arrow function, this refers to the parent's scope. Hence, this.age gives 25.
+      };
 
-        innerFunc();
-    }
+      innerFunc();
+    });
 }
 
 const x = new Person();
@@ -86,29 +81,30 @@ x.sayName();
 // output:
 // 25
 // 25
-
 ```
 
-### Things You Should Avoid With Arrow Functions
-You should not use arrow functions to create methods inside objects.
-``` js
-   let person = {
-    name: 'Jack',
-    age: 25,
-    sayName: () => {
+# Things You Should Avoid With Arrow Functions
 
-        // this refers to the global .....
-        //
-        console.log(this.age);
-    }
-}
+You should not use arrow functions to create methods inside objects.
+
+```js
+let person = {
+  name: "Jack",
+  age: 25,
+  sayName: () => {
+    // this refers to the global .....
+    //
+    console.log(this.age);
+  },
+};
 
 person.sayName();
- // undefined
+// undefined
 ```
+
 You cannot use an arrow function as a constructor
 
-``` js
+```js
 let Foo = () => {};
 let foo = new Foo(); // TypeError: Foo is not a constructor
 ```
