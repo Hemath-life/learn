@@ -20,8 +20,6 @@ Choose from the following topics to dive deeper into JavaScript:
 
 Explore JavaScript libraries:
 
-
-
 # Frameworks
 
 Discover JavaScript frameworks:
