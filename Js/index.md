@@ -1,7 +1,7 @@
 # Kick Start to learn JavaScript
 
-[Basic about the javascript](./01_get_start/index.md)
-[Intermediate JavaScript](./02_inter/index.md)
+- [Basic about the javascript](./01_get_start/index.md)
+- [Intermediate JavaScript](./02_inter/index.md)
 
 # Topics to Dive Deeper
 
