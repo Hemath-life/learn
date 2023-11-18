@@ -14,3 +14,5 @@
 
 - [Chapter 4: Arrays and Objects](./toc.md#chapter-4-arrays-and-objects)
 
+- [Chapter 5: Functions and methods](./toc.md#chapter-5-functions-and-methods)
+

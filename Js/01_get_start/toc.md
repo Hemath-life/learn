@@ -69,60 +69,55 @@
 - Purpose of the Temporal Dead Zone
 - Example
 
-
-
-
-
 ## [Chapter 4: Arrays and Objects](./c4.md)
 
 ### Arrays
+
 - Creating Arrays
   - Declaration and initialization of arrays.
-  
 - Accessing Array Elements
   - Indexing and accessing elements in arrays.
-  
 - Modifying Arrays
   - Adding, modifying, and removing elements in arrays.
-  
 - Array Methods
+
   - Overview of commonly used array methods like `push`, `pop`, `shift`, `unshift`, `splice`, `concat`, and `slice`.
 
 - Iterating Arrays
+
   - Using loops and array methods for iteration.
 
 - Multidimensional Arrays
   - Creating and working with multidimensional arrays.
 
 ### Objects
+
 - Creating Objects
   - Object Literal
   - Object Constructor
   - Object.create()
   - Function Constructor
   - Class (ES6)
-
-  
 - Accessing Object Properties
   - Dot notation and bracket notation for accessing object properties.
-  
 - Modifying Objects
   - Adding, modifying, and deleting properties in objects.
-  
 - Object Methods
+
   - Introduction to methods within objects.
 
 - Iterating Objects
   - Looping through object properties.
 
 ### Combining Arrays and Objects
-  - Array of Objects
-  - Object with Arrays
-  - Object of Arrays
-  - Array of Objects with Nested Arrays
 
+- Array of Objects
+- Object with Arrays
+- Object of Arrays
+- Array of Objects with Nested Arrays
 
 ### Destructing with arrays and objects
+
 - Destructuring with Arrays
   - Basic Array Destructuring
   - Skipping Elements
@@ -131,3 +126,67 @@
   - Basic Object Destructuring
   - Renaming Variables
   - Default Values
+
+## [Chapter 5: Functions and methods](./c5.md)
+
+### [Function Basics](./c5.md#function-basics):
+
+- Function Declaration
+  - Function Declaration with Default Parameters (ES6+)
+  - Function Declaration with Rest Parameters (ES6+)
+  - Function Declaration with Destructuring Parameters (ES6+)
+  - Generator Function (ES6+)
+  - Async Function (ES2017+)
+  - Function Declaration Inside an Object
+  - Function Declaration as a Method in Class
+  - Function Constructor
+  - Shorthand Method in Object Literal (ES6+):
+  - Bind Method
+  - Function in an Object Property (ES6+):
+  - Dynamic Function Names (ES6+):
+
+### Scope and Closures:
+
+- Global vs. Local Scope
+- Closure Concept
+
+## Function Context:
+
+- `this` Keyword
+- Functions as Methods
+
+## Callback Functions:
+
+- Definition and Usage
+- Asynchronous Operations
+
+## Higher-Order Functions:
+
+- Higher-Order Function Definition
+- Functions as First-Class Citizens
+
+## Built-in Functions:
+
+- Commonly Used Functions
+- String and Array Methods
+
+## Recursion:
+
+- Recursive Function Basics
+- Pros and Cons
+
+## Error Handling:
+
+- Using try, catch, finally
+- Throwing Custom Errors
+- Best Practices:
+
+## Writing Modular Functions
+
+- Avoiding Side Effects
+
+## ES6+ Features:
+
+- Default Parameters
+- Rest and Spread Operators
+- Destructuring in Function Parameters
