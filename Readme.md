@@ -7,12 +7,9 @@
   - [Docker](#docker)
 
 [Database](#database)
-
-  [NoSQL](#nosql)
-
-  [SQL](#sql)
-
-  [Database Engineering](#database-engineering)
+  - [NoSQL](#nosql)
+  - [SQL](#sql)
+  - [Database Engineering](#database-engineering)
     
 - [Web](#web)
   - [Browser scripts](#browser-scripts)
