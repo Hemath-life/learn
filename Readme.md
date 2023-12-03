@@ -1,4 +1,4 @@
-## [Hi There ❤️ Kickstart Your Learning](#hi-there-️-kickstart-your-learning)
+[Hi There ❤️ Kickstart Your Learning](#hi-there-️-kickstart-your-learning)
 
 [Programming Languages](#programming-languages)
   - [JavaScript](#javascript)
