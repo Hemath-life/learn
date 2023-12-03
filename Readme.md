@@ -21,11 +21,25 @@ Explore the world of programming languages and unleash the power of code.
 
 - [Java Basics](./Java/Basics.txt) - Get started with Java programming.
 
-### 🐧 Linux
+### 🐹 Go (Golang)
+
+- [Go Basics]() - Dive into the fundamentals of Go programming.
+
+---
+
+## ⚙️ Development Environment
+
+### 🤝 Integrations
+
+Discover the world of integrations, particularly Continuous Integration and Continuous Deployment (CI/CD). Learn how to streamline your development process and ensure efficient collaboration.
+
+### 🧰 Infrastructure
+
+#### 🐧 Linux
 
 - [Linux Fundamentals](./Linux/index.md) - Explore Linux and its commands.
 
-### 🐳 Docker
+#### 🐳 Docker
 
 - [Docker Containers](./Docker/index.md) - Understand Docker containers and their usage.
 
@@ -61,9 +75,9 @@ Uncover the mysteries of the web with dedicated sections on HTTP, WordPress, and
 
 - [WordPress Development](./web/wordpress/index.md) - Explore the world of WordPress website development.
 
-### 🌐 Webflow
+### 🌐 Web flow
 
-- [Webflow Web Design](./web/webflow/index.md) - Get creative with Webflow web design.
+- [Web flow Web Design](./web/webflow/index.md) - Get creative with Web flow web design.
 
 ---
 
@@ -93,10 +107,6 @@ Master essential tools for development and beyond.
 
 ---
 
-## 🤝 Integrations
-
-Discover the world of integrations, particularly Continuous Integration and Continuous Deployment (CI/CD).
-
 ### 🔄 CI/CD
 
 - [CI/CD Pipelines](./Integrations/index.md) - Explore CI/CD pipelines and best practices.
@@ -105,10 +115,15 @@ Discover the world of integrations, particularly Continuous Integration and Cont
 
 ## 🌐 Useful Websites
 
-Explore a handpicked selection of useful websites, including Rufus, a tool for creating bootable USB drives.
+## 📱 Android
+
+- [Custom ROM](./android/index.md)
+- [Android Guide with ADB](./android/index.md)
+
+## 💼 Others
 
 ### 🔗 Rufus
 
-- [Rufus Website](https://rufus.ie/en/) - Visit the Rufus website for creating bootable USB drives.
+- [Rufus Website](https://rufus.ie/en/) - Visit the Rufus website for creating boatable USB drives.
 
 Feel free to navigate through the sections that pique your interest, and let this documentation be your compass as you embark on your learning adventure. Happy coding! 🚀
