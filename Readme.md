@@ -24,20 +24,20 @@ Explore the world of programming languages and unleash the power of code.
 
 ### 🌐 JavaScript
 
-- [Javascript](./Js/index.md) - Learn the fundamentals of JavaScript.
-- [React Js](./Js/React/index.md) - Dive into the React JS library.
+- [Javascript](./Languages/Js/index.md) - Learn the fundamentals of JavaScript.
+- [React Js](./Languages/Js/React/index.md) - Dive into the React JS library.
 
 ### 🐍 Python
 
-- [Python Programming](./python/index.md) - Discover the world of Python.
+- [Python Programming](./Languages/python/index.md) - Discover the world of Python.
 
 ### ☕ Java
 
-- [Java Basics](./Java/Basics.txt) - Get started with Java programming.
+- [Java Basics](./Languages/Java/Basics.txt) - Get started with Java programming.
 
 ### 🐹 Go (Golang)
 
-- [Go Basics]() - Dive into the fundamentals of Go programming.
+- [Go Basics](./Languages/Golang/index.md) - Dive into the fundamentals of Go programming.
 
 ---
 
@@ -53,11 +53,11 @@ Discover the world of integrations, particularly Continuous Integration and Cont
 
 #### 🐧 Linux
 
-- [Linux Fundamentals](./Linux/index.md) - Explore Linux and its commands.
+- [Linux Fundamentals](./Development/Infrastructure/Linux/index.md) - Explore Linux and its commands.
 
 #### 🐳 Docker
 
-- [Docker Containers](./Docker/index.md) - Understand Docker containers and their usage.
+- [Docker Containers](./Development/Infrastructure/Docker/01_basic.md) - Understand Docker containers and their usage.
 
 ---
 
@@ -85,7 +85,7 @@ Uncover the mysteries of the web with dedicated sections on HTTP, WordPress, and
 
 ### 🌐 HTTP
 
-- [HTTP Basics](./web/HTTP/01_web.md) - Understand the basics of HTTP.
+- [HTTP Basics](./Web/HTTP/01_web.md) - Understand the basics of HTTP.
 
 ### 🌐 WordPress
 
@@ -107,26 +107,26 @@ Master essential tools for development and beyond.
 
 ### 📝 JSON
 
-- [JSON Data Format](./tools/json/index.md) - Explore the world of JSON data format.
+- [JSON Data Format](./Tools/json/index.md) - Explore the world of JSON data format.
 
 ### 🛠️ API Testing Tools
 
-- [API Testing Tools](./tools/index.md) - Discover powerful tools for API testing.
+- [API Testing Tools](./Tools/index.md) - Discover powerful tools for API testing.
 
 ### 🎨 Photo Editing
 
-- [Photo Editing Skills](./tools/edit/index.md) - Enhance your skills in photo editing.
+- [Photo Editing Skills](./Tools/edit/index.md) - Enhance your skills in photo editing.
 
 ### 📊 DB Viewers
 
-- [Database Viewers](./tools/db/index.md) - Work with advanced database viewers.
+- [Database Viewers](./Tools/db/index.md) - Work with advanced database viewers.
 
 ---
 
 ## 📱 Android
 
-- [Custom ROM](./android/index.md)
-- [Android Guide with ADB](./android/index.md)
+- [Custom ROM](./Android/index.md)
+- [Android Guide with ADB](./Android/index.md)
 
 ---
 
