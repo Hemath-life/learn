@@ -5,7 +5,7 @@
 - [Getting Started](./01_get_start/index.md)
 - [Intermediate JavaScript](./02_inter/index.md)
 - [Advanced concept](./03_ad/index.md)
-- [Object-Oriented Programming](./oops/js.oops.md)
+- [Object-Oriented Programming](./04_oops/index.md)
 - [Promises](./promise/promise.md)
 - [Regular Expressions](./regex.md)
 - [Utilities](./utils/utils.md)
@@ -43,9 +43,3 @@
 
 - [Tips and Tricks](./tips_and_tricks/trick.md)
 - [Conditional Logics](./condition.md)
-
-## Deployment
-
-Learn about deploying JavaScript applications:
-
-- [Heroku with Node.js](./deployment/index.md)
