@@ -5,6 +5,8 @@
 [Table of Contents](toc.md)
 
 - [Chapter 1: What is the OOPS ?](./toc.md)
+- [Chapter 2: Classes and objects](./toc.md#chapter-2-Classes-and-objects)
+
 <!-- - [Chapter 1: Objects](./toc.md#chapter-3-objects)
 - [Chapter 2: Prototypes](./toc.md#chapter-4-prototypes)
 - [Chapter 3: Classes](./toc.md#chapter-5-classes)

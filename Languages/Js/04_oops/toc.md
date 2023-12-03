@@ -7,3 +7,7 @@
 ### [What is an Object?]()
 
 ### [Encapsulation]()
+
+## [Chapter 2: Classes and objects]()
+
+- Difference Between a Class and a Prototype in JavaScript
