@@ -9,9 +9,9 @@
 [Database](#database)
   - [NoSQL](#nosql)
   - [SQL](#sql)
-  - [Database Engineering](#database-engineering)
-    
-- [Web](#web)
+  - [Database Engineering](#database-engineering) 
+
+[Web](#web)
   - [Browser scripts](#browser-scripts)
   - [Http](#http)
   - [HTTP](#http-1)
