@@ -1,5 +1,6 @@
-- [Hi There ❤️ Kickstart Your Learning](#hi-there-️-kickstart-your-learning)
-- [Programming Languages](#programming-languages)
+## [Hi There ❤️ Kickstart Your Learning](#hi-there-️-kickstart-your-learning)
+
+[Programming Languages](#programming-languages)
   - [JavaScript](#javascript)
   - [Python](#python)
   - [Java](#java)
@@ -17,15 +18,18 @@
   - [HTTP](#http-1)
   - [WordPress](#wordpress)
   - [Webflow](#webflow)
-- [Tools](#tools)
+
+[Tools](#tools)
   - [Git](#git)
   - [JSON](#json)
   - [API Testing Tools](#api-testing-tools)
   - [Photo Editing](#photo-editing)
   - [DB Viewers](#db-viewers)
-- [Integrations](#integrations)
+
+[Integrations](#integrations)
   - [CI/CD](#cicd)
-- [Useful Websites](#useful-websites)
+
+[Useful Websites](#useful-websites)
   - [Rufus](#rufus)
 
 ---
