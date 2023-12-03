@@ -1,6 +1,20 @@
-# 🌟 Kickstart Your Learning 🚀
+# 🌟 CodeCraft Hub 🚀
 
-🚀 Welcome to "Your Learning"! Your ultimate guide across coding realms—perfect for novices and seasoned developers alike. Unleash your potential with valuable insights and resources! 🌟
+🚀 Welcome to "CodeCraft Hub"! Your ultimate guide across coding realms—perfect for novices and seasoned developers alike. Unleash your potential with valuable insights and resources! 🌟
+
+---
+
+## Table of Contents
+
+| #   | Section                                                |
+| --- | ------------------------------------------------------ |
+| 1   | [Programming Languages](#🚀-programming-languages)     |
+| 2   | [Development Environment](#⚙️-development-environment) |
+| 3   | [Database](#🗃️-database)                               |
+| 4   | [Web](#🌐-web)                                         |
+| 5   | [Android](#📱-android)                                 |
+| 6   | [Tools](#🧰-tools)                                     |
+| 7   | [Others](#💼-others)                                   |
 
 ---
 
@@ -32,6 +46,8 @@ Explore the world of programming languages and unleash the power of code.
 ### 🤝 Integrations
 
 Discover the world of integrations, particularly Continuous Integration and Continuous Deployment (CI/CD). Learn how to streamline your development process and ensure efficient collaboration.
+
+- [CI/CD Pipelines](./Integrations/index.md) - Explore CI/CD pipelines and best practices.
 
 ### 🧰 Infrastructure
 
@@ -107,18 +123,12 @@ Master essential tools for development and beyond.
 
 ---
 
-### 🔄 CI/CD
-
-- [CI/CD Pipelines](./Integrations/index.md) - Explore CI/CD pipelines and best practices.
-
----
-
-## 🌐 Useful Websites
-
 ## 📱 Android
 
 - [Custom ROM](./android/index.md)
 - [Android Guide with ADB](./android/index.md)
+
+---
 
 ## 💼 Others
 
@@ -126,4 +136,10 @@ Master essential tools for development and beyond.
 
 - [Rufus Website](https://rufus.ie/en/) - Visit the Rufus website for creating boatable USB drives.
 
-Feel free to navigate through the sections that pique your interest, and let this documentation be your compass as you embark on your learning adventure. Happy coding! 🚀
+---
+
+Explore the sections that spark your curiosity, and let this documentation guide you on your learning journey. Wishing you joyous coding adventures! 🚀
+
+---
+
+**CodeCraft Hub | Your Gateway to Coding Adventures**
