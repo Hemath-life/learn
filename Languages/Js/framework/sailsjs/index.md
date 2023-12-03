@@ -67,8 +67,8 @@ app.js
 - sails lift
 - sails generate api todo
   - this will create todo controller and todo model in model folder
-- sails generate model model_name attribute1 attribute2 attribute3 ctc  
-   - sails generate controller controller_name
+- sails generate model model_name attribute1 attribute2 attribute3 ctc
+  - sails generate controller controller_name
 
 ### blue print ?
 

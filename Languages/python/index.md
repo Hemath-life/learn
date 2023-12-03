@@ -1,3 +1,6 @@
-## Index
-1. <a href="setup/python_setup.md">Python setup</a>
-2. <a href="utils/readme.md">Utilities</a>
+## 📚 Table of Contents
+
+| **Index** | **Topic**                             |
+| :-------: | ------------------------------------- |
+|     1     | [Python Setup](setup/python_setup.md) |
+|     2     | [Utilities](utils/readme.md)          |

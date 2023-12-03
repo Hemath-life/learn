@@ -1,1 +1,1 @@
-### [Github Actions](./GithubActions.md)
+## [Github Actions](./GithubActions.md)
