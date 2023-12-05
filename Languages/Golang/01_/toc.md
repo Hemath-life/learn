@@ -14,3 +14,5 @@
 
 - Variables declarations
 - variables declarations types
+
+## [Chapter 2: Struct,method and functions](./c1.md)
