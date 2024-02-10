@@ -5,4 +5,5 @@
 
 - [Chapter 1: Go Data Types and variables](./toc.md)
 - [Chapter 2: Struct,method and functions](./toc.md)
+- [Chapter 3: Understand Golang Interfaces](./toc.md)
 
