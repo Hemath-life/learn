@@ -2,7 +2,7 @@
 
 ## Fundamentals
 
-- [Getting Started](./01_get_start/index.md)
+- [Getting Started](./01_get_start/toc.md)
 - [Intermediate JavaScript](./02_inter/index.md)
 - [Advanced concept](./03_ad/index.md)
 - [Object-Oriented Programming](./04_oops/index.md)
